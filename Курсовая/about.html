@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>О разработчике</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" href="images/favicon.ico">
+</head>
+<body>
+    <!--Menu-->
+    <header>
+        <input type="checkbox" name="menu" id="check">
+        <a href="#" id="mobile-logo"><img src="images/siteicon.png" alt="MenuLogo" class="menulogo"></a>
+        <ul class="main-menu">
+            <li>
+                <a href="#" onclick="return false">Приставки</a>
+                <ul class="main-product-list">
+                    
+                    <li class="main-product-list-li"><a href="ps5.html" class="main-product-list-a"><img src="images/ps5icon.png" alt="product-icon" class="main-product-list-icon">PlayStation 5</a></li>
+                    <li class="main-product-list-li"><a href="ps4.html" class="main-product-list-a"><img src="images/ps4icon.png" alt="product-icon" class="main-product-list-icon">PlayStation 4</a></li>
+                    <li class="main-product-list-li"><a href="xboxseriesx.html" class="main-product-list-a"><img src="images/xboxsxicon.png" alt="product-icon" class="main-product-list-icon">Xbox Series X</a></li>
+                    <li class="main-product-list-li"><a href="xbox360.html" class="main-product-list-a"><img src="images/xbox360icon.png" alt="product-icon" class="main-product-list-icon">Xbox 360</a></li>
+                    <li class="main-product-list-li"><a href="nintendoswitch.html" class="main-product-list-a"><img src="images/nintendoswitchicon.png" alt="product-icon" class="main-product-list-icon">Nintendo Switch</a></li>
+                    
+                </ul>
+            </li>
+            <li><a href="devices.html">Консольные девайсы</a></li>
+            <li id="logo-in-menu"><a href="main.html"><img src="images/siteicon.png" alt="MenuLogo" class="menulogo"></a></li>
+            <li><a href="about.html">О разработчике</a></li>
+            <li><a href="#" class="contacts" onclick="addPopup()">Контакты</a></li>
+        </ul>
+        <div class="hamburger-menu-container">
+            <div class="hamburger-menu-inner-container">
+                <div class="hamburger-menu">
+                    <div></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div id="popup" class="popup">
+      <a class="btn" id="btn" onclick="closePopup()"><img  src="images/close.png" class="btnClose"></a>
+      <h4 style="float: left">Контакты</h4>
+      <div class="social_media">
+          <div class="img_and_text">
+              <img src="images/insta.png" class="mediaImg">
+              <p>@egorztv</p>
+          </div>
+          <div class="img_and_text">
+              <img src="images/email.png" class="mediaImg">
+              <p>egorztv@gmail.com</p>
+          </div>
+      </div>
+    </div>
+    <!--About Section-->
+    <section id="about-dev-section">
+        <div class="about-dev">
+            <img src="images/author_me.jpg" alt="glowlogo" class="author">
+            <p class="about-me-text">Сайт был разработан студентом 2 курса <i>РТУ МИРЭА</i> Зотовым Егором Николаевичем в рамках курсовой работы по предмету "Разработка клиентских частей интернет-ресурсов".</p>
+        </div>
+    </section>
+    <!--Footer-->
+    <footer>
+        <div class="first-line-footer">
+            <img src="images/whitelogo.png" alt="white logo" class="footer-white-logo">
+            <ul class="footer-menu">
+                <li><a href="main.html">Главная</a></li>
+                <li><a href="about.html">О разработчике</a></li>
+                <li><a href="devices.html">Консольные девайсы</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+<script src="menu.js"></script>
+<script src="top5Slider.js"></script>
+</html>

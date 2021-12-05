@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Современные игровые приставки</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" href="images/favicon.ico">
+</head>
+<body>
+    <!--Menu-->
+    <header>
+        <input type="checkbox" name="menu" id="check">
+        <a href="#" id="mobile-logo"><img src="images/siteicon.png" alt="MenuLogo" class="menulogo"></a>
+        <ul class="main-menu">
+            <li>
+                <a href="#" onclick="return false">Приставки</a>
+                <ul class="main-product-list">
+                    
+                    <li class="main-product-list-li"><a href="ps5.html" class="main-product-list-a"><img src="images/ps5icon.png" alt="product-icon" class="main-product-list-icon">PlayStation 5</a></li>
+                    <li class="main-product-list-li"><a href="ps4.html" class="main-product-list-a"><img src="images/ps4icon.png" alt="product-icon" class="main-product-list-icon">PlayStation 4</a></li>
+                    <li class="main-product-list-li"><a href="xboxseriesx.html" class="main-product-list-a"><img src="images/xboxsxicon.png" alt="product-icon" class="main-product-list-icon">Xbox Series X</a></li>
+                    <li class="main-product-list-li"><a href="xbox360.html" class="main-product-list-a"><img src="images/xbox360icon.png" alt="product-icon" class="main-product-list-icon">Xbox 360</a></li>
+                    <li class="main-product-list-li"><a href="nintendoswitch.html" class="main-product-list-a"><img src="images/nintendoswitchicon.png" alt="product-icon" class="main-product-list-icon">Nintendo Switch</a></li>
+                    
+                </ul>
+            </li>
+            <li><a href="devices.html">Консольные девайсы</a></li>
+            <li id="logo-in-menu"><a href="main.html"><img src="images/siteicon.png" alt="MenuLogo" class="menulogo"></a></li>
+            <li><a href="about.html">О разработчике</a></li>
+            <li><a href="#" class="contacts" onclick="addPopup()">Контакты</a></li>
+        </ul>
+        <div class="hamburger-menu-container">
+            <div class="hamburger-menu-inner-container">
+                <div class="hamburger-menu">
+                    <div></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div id="popup" class="popup">
+      <a class="btn" id="btn" onclick="closePopup()"><img  src="images/close.png" class="btnClose"></a>
+      <h4 style="float: left">Контакты</h4>
+      <div class="social_media">
+          <div class="img_and_text">
+              <img src="images/insta.png" class="mediaImg">
+              <p>@egorztv</p>
+          </div>
+          <div class="img_and_text">
+              <img src="images/email.png" class="mediaImg">
+              <p>egorztv@gmail.com</p>
+          </div>
+      </div>
+    </div>
+    <!--About Section-->
+    <section id="about-section">
+        <div class="text-area">
+            <img src="images/glowlogo.png" alt="glowlogo" class="glowlogo">
+            <p class="usual-text">Игровая приставка - специализированное электронное устройство, предназначенное для видеоигр. Для таких устройств, в отличие от персональных компьютеров, запуск и воспроизведение видеоигр является основной задачей. Помимо видеоигр, приставки могут дополнительно выступать в качестве устройств для воспроизведения видео и музыки, доступа в Интернет. Существует множество игровых приставок от разных производителей - например: Sony, Xbox, Nintendo</p>
+        </div>
+    </section>
+    <!--Top5 Slider-->
+    <section id="top5-slider">
+        <div class="top5-header-container">
+            <h1><span class="bright-text">СОВРЕМЕННЫЕ </span>ИГРОВЫЕ ПРИСТАВКИ</h1>
+            
+        </div>
+        <div class="top5-slider-wrapper top5-slider-wrapper-active tab-1">
+            <div class="top5-slider-container">
+                <p class="slider_btn slider_btn-prev" data-target="prev" id="prev"><img src="images/prev.png" alt="prev" class="img-btn"></p>
+                <p class="slider_btn slider_btn-next" data-target="next" id="next"><img src="images/next.png" alt="next" class="img-btn"></p>
+                <div class="top5-slider-track" id="top5-slider-track">
+                    <div class="top5-slider-item top5-active-items">
+                        <img src="images/nintendoswitch.jpg" alt="nintendo_switch" class="top5-img">
+                        <div class="text-area">
+                            <div class="product-text-info">
+                                <h6 class="top5-product-name"> <span class="bright-text">Nintendo Switch</span></h6>
+                                <p class="brief-feature">Старт продаж - 2017 год</p>
+                                <div class="price-block active-price-blocks price-block-active">
+                                    <a href="nintendoswitch.html" class="buy-btn-a"><p class="buy-btn-text">Перейти</p></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="top5-slider-item top5-active-items">
+                        <img src="images/ps4.jpg" alt="ps4" class="top5-img">
+                        <div class="text-area">
+                            <div class="product-text-info">
+                                <h6 class="top5-product-name"> <span class="bright-text">PlayStation 4</span></h6>
+                                <p class="brief-feature">Старт продаж - 2013 год</p>
+                                <div class="price-block active-price-blocks price-block-active">
+                                    <a href="ps4.html" class="buy-btn-a"><p class="buy-btn-text">Перейти</p></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="top5-slider-item top5-active-items top5-slider-item-active">
+                        <img src="images/ps5.jpg" alt="ps5" class="top5-img">
+                        <div class="text-area">
+                            <div class="product-text-info">
+                                <h6 class="top5-product-name"> <span class="bright-text">PlayStation 5</span></h6>
+                                <p class="brief-feature">Старт продаж - 2020 год</p>
+                                <div class="price-block active-price-blocks price-block-active">
+                                    <a href="ps5.html" class="buy-btn-a"><p class="buy-btn-text">Перейти</p></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="top5-slider-item top5-active-items">
+                        <img src="images/xboxseriesx.png" alt="xboxsx" class="top5-img">
+                        <div class="text-area">
+                            <div class="product-text-info">
+                                <h6 class="top5-product-name"> <span class="bright-text">Xbox Series X</span></h6>
+                                <p class="brief-feature">Старт продаж - 2020 год</p>
+                                <div class="price-block active-price-blocks price-block-active">
+                                    <a href="xboxseriesx.html" class="buy-btn-a"><p class="buy-btn-text">Перейти</p></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="top5-slider-item top5-active-items">
+                        <img src="images/xbox360.png" alt="xbox360" class="top5-img">
+                        <div class="text-area">
+                            <div class="product-text-info">
+                                <h6 class="top5-product-name"> <span class="bright-text">Xbox 360</span></h6>
+                                <p class="brief-feature">Старт продаж - 2005 год</p>
+                                <div class="price-block active-price-blocks price-block-active">
+                                    <a href="xbox360.html" class="buy-btn-a"><p class="buy-btn-text">Перейти</p></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Footer-->
+    <footer>
+        <div class="first-line-footer">
+            <img src="images/whitelogo.png" alt="white logo" class="footer-white-logo">
+            <ul class="footer-menu">
+                <li><a href="main.html">Главная</a></li>
+                <li><a href="about.html">О разработчике</a></li>
+                <li><a href="devices.html">Консольные девайсы</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+<script src="menu.js"></script>
+<script src="top5Slider.js"></script>
+</html>

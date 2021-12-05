@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>PlayStation 5</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="productpage.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.ico">
+</head>
+<body>
+    <!--Menu-->
+    <header>
+        <input type="checkbox" name="menu" id="check">
+        <a href="main.html" id="mobile-logo"><img src="images/siteicon.png" alt="MenuLogo" class="menulogo"></a>
+        <ul class="main-menu">
+            <li>
+                <a href="#" onclick="return false">Приставки</a>
+                <ul class="main-product-list">
+                    
+                    <li class="main-product-list-li"><a href="ps5.html" class="main-product-list-a"><img src="images/ps5icon.png" alt="product-icon" class="main-product-list-icon">PlayStation 5</a></li>
+                    <li class="main-product-list-li"><a href="ps4.html" class="main-product-list-a"><img src="images/ps4icon.png" alt="product-icon" class="main-product-list-icon">PlayStation 4</a></li>
+                    <li class="main-product-list-li"><a href="xboxseriesx.html" class="main-product-list-a"><img src="images/xboxsxicon.png" alt="product-icon" class="main-product-list-icon">Xbox Series X</a></li>
+                    <li class="main-product-list-li"><a href="xbox360.html" class="main-product-list-a"><img src="images/xbox360icon.png" alt="product-icon" class="main-product-list-icon">Xbox 360</a></li>
+                    <li class="main-product-list-li"><a href="nintendoswitch.html" class="main-product-list-a"><img src="images/nintendoswitchicon.png" alt="product-icon" class="main-product-list-icon">Nintendo Switch</a></li>
+                    
+                </ul>
+            </li>
+            <li><a href="devices.html">Консольные девайсы</a></li>
+            <li id="logo-in-menu"><a href="main.html"><img src="images/siteicon.png" alt="MenuLogo" class="menulogo"></a></li>
+            <li><a href="about.html">О разработчике</a></li>
+            <li><a href="#" class="contacts" onclick="addPopup()">Контакты</a></li>
+        </ul>
+        <div class="hamburger-menu-container">
+            <div class="hamburger-menu-inner-container">
+                <div class="hamburger-menu">
+                    <div></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div id="popup" class="popup">
+      <a class="btn" id="btn" onclick="closePopup()"><img  src="images/close.png" class="btnClose"></a>
+      <h4 style="float: left">Контакты</h4>
+      <div class="social_media">
+          <div class="img_and_text">
+              <img src="images/insta.png" class="mediaImg">
+              <p>@egorztv</p>
+          </div>
+          <div class="img_and_text">
+              <img src="images/email.png" class="mediaImg">
+              <p>egorztv@gmail.com</p>
+          </div>
+      </div>
+    </div>
+    <!--Product Section-->
+    <section id="product-section">
+        <div class="product-section-wrapper">
+            <div class="catalogText">
+                <p class="catalogcolumntext">Игровая приставка <span class="bright-text">PlayStation 5</span></p>
+            </div>
+            <div class="main-product-container">
+                <div class="sliderAndPicture">
+                    <div class="vertical-slider-wrapper">
+                    <div class="for-arrow-div"><img src="images/arrowup.png" class="upperButton updownbutton" alt="arrow" data-target="prev" id="prev"></div>
+                    <div class="vertical-slider-container">
+                        <ul class="good_images_ul" id="good_images_ul">
+                            <li class="catalog_page_li catalog_page_li_active" data-target="0"><img src="images/ps5.jpg" alt="product img" class="product-photo"></li>
+                            <li class="catalog_page_li" data-target="2"><img src="images/ps5stay.jpg" alt="product img" class="product-photo"></li>
+                            <li class="catalog_page_li" data-target="2"><img src="images/ps5close.jpg" alt="product img" class="product-photo"></li>
+                            <li class="catalog_page_li" data-target="1"><img src="images/ps5gold.jpg" alt="product img" class="product-photo"></li>
+                            <li class="catalog_page_li" data-target="2"><img src="images/ps5gamepad.jpg" alt="product img" class="product-photo"></li>
+                        </ul>
+                    </div>
+                    <div class="for-arrow-div"><img src="images/arrowdown.png" class="lowerButton updownbutton" alt="arrow" data-target="next" id="next"></div>
+                </div>
+                    <img src="images/ps5.jpg" class="catalogImage" id="imageBox" alt="main image">
+                </div>
+                <div class="costAndDescription">
+                    <div class="costAndDescText">
+<!--
+                        <div class="catalogCost">
+                            <p class="catalogCostText">Цена:</p>
+                            <div class="costAndCart">
+                                <p class="catalogCostValue">32 000 ₽</p>
+                                <div class="basketcolumn">
+                                    <a href="#" class="buy-btn-a"><p class="buy-btn-text">В КОРЗИНУ</p></a>
+                                    <a href="#" id="cart"><img src="cart.png" class="cartInProduct" alt="Cart"></a>
+                                </div>
+                            </div>
+                        </div>
+-->
+                        <div class="catalogCost">
+                            
+                            
+                            <div class="priceColumn">
+                                <p class="catalogCostText">Средняя цена:</p>
+                                <p class="catalogCostValue">55000 ₽</p>
+                            </div>
+                            <p class="catalogDescriptionHeader">Описание приставки:</p>
+                        </div>
+                        
+                    </div>
+                    <div class="catalogDescription">
+                        
+                        <p class="catalogDescriptionText">PlayStation 5 - игровая приставка нового поколения, вышедшая в октябре 2020 года. Приставка была выкуплена в минимальные сроки, вскоре став настоящим "сокровищем" для игроков на консолях. На протяжении всего 2021 года приставка также оставалась и продолжает оставаться редкой. Некоторые люди продают ее по заоблачным ценам именно благодаря почти полному отсутствию на рынке. Связано это с глобальным дифицитом полупроводников, используемых во всех нынешних электронных устройствах, а также в автомобильной промышленности. На данный момент приставка считается самой лучшей среди всех существующих. В консоли представлены новые функции взаимодействия с пользователями, что делает игровой процесс еще интереснее и занимательнее!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Table Section-->
+    <section id="table-section">
+        <div class="charasteristicsTexts">
+            <div class="charasterictics">
+                <h1>ХАРАКТЕРИСТИКА ПРИСТАВКИ</h1>
+            </div>
+            
+        </div>
+        
+        <div class="all-tables-wrapper">
+            
+                <div class="textblock-and-table">
+                    <h3 class="table-caption">Технические характеристики</h3>
+                    <table class="table1">
+                        <tbody>
+                        <tr>
+                            <td>Бренд</td>
+                            <td>Sony</td>
+                        </tr>
+                        <tr>
+                            <td>Процессор</td>
+                            <td>AMD Zen 2</td>
+                        </tr>
+                        <tr>
+                            <td>Ядер процессора</td>
+                            <td>8</td>
+                        </tr>
+                        <tr>
+                            <td>Потоков процессора</td>
+                            <td>16</td>
+                        </tr>
+                        <tr>
+                            <td>Тип оперативной памяти</td>
+                            <td>GDDR6</td>
+                        </tr>
+                        <tr>
+                            <td>Объем оперативной памяти</td>
+                            <td>18ГБ</td>
+                        </tr>
+                        <tr>
+                            <td>Другие модули памяти</td>
+                            <td>SSD</td>
+                        </tr>
+                        <tr>
+                            <td>Дисковод</td>
+                            <td>4К UHD Blu Ray</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                
+                <div class="textblock-and-table">
+                    <h3 class="table-caption">Эксклюзивные игры</h3>
+                    <table class="table2">
+                        <tbody>
+                        <tr>
+                            <td>Гонки</td>
+                            <td>Gran Turismo 7</td>
+                        </tr>
+                        <tr>
+                            <td>Приключения</td>
+                            <td>Marvel’s Spider Man: Miles Morales</td>
+                        </tr>
+                        <tr>
+                            <td>Экшен</td>
+                            <td>Deathloop</td>
+                        </tr>
+                        <tr>
+                            <td>Пост-апокалипсис</td>
+                            <td>Horizon Forbidden West</td>
+                        </tr>
+                        <tr>
+                            <td>Экшен-платформер</td>
+                            <td>Ratchet&Clank: Rift Apart</td>
+                        </tr>
+                        <tr>
+                            <td>Ролевая игра</td>
+                            <td>Godfall</td>
+                        </tr>
+                        <tr>
+                            <td>Аркадный шутер</td>
+                            <td>Returnal</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                
+        </div>
+    </section>
+    <!--Footer-->
+    <footer>
+        <div class="first-line-footer">
+            <img src="images/whitelogo.png" alt="white logo" class="footer-white-logo">
+            <ul class="footer-menu">
+                <li><a href="main.html">Главная</a></li>
+                <li><a href="about.html">О разработчике</a></li>
+                <li><a href="devices.html">Консольные девайсы</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="verticalProductSlider.js"></script>
+    <script src="menu.js"></script>
+</body>
+</html>
